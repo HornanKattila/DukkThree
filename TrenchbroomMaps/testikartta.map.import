@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/testikartta.map-786f8db65a37998b891b70b5cabfea3c.tres"
+
+[deps]
+
+source_file="res://TrenchbroomMaps/testikartta.map"
+dest_files=[ "res://.import/testikartta.map-786f8db65a37998b891b70b5cabfea3c.tres" ]
+
+[params]
+
