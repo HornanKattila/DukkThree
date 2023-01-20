@@ -43,6 +43,7 @@ points = PoolVector3Array( 22, 1, 26, 22, 0, 26, 46, 0, 26, 46, 1, 26, 22, 1, 47
 points = PoolVector3Array( 4, 2, 0, 4, 1, 0, 8, 1, 0, 8, 2, 0, 4, 2, 8, 4, 1, 8, 8, 1, 8, 8, 2, 8 )
 
 [node name="QodotMap" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 136.178, 0 )
 script = ExtResource( 2 )
 map_file = "C:/C_levy/Koulu Projekti/DukkThree/TrenchbroomMaps/testikartta.map"
 inverse_scale_factor = 16.0
@@ -62,6 +63,7 @@ tree_attach_batch_size = 16
 set_owner_batch_size = 16
 
 [node name="entity_0_worldspawn" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4329, -136.177, 2.07935 )
 
 [node name="entity_0_mesh_instance" type="MeshInstance" parent="entity_0_worldspawn"]
 use_in_baked_light = true
