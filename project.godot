@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "EditorVCSInterface",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://addons/godot-git-plugin/git_api.gdns"
-}, {
 "base": "LiquidLayer",
 "class": "LavaLayer",
 "language": "GDScript",
@@ -175,7 +170,6 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 } ]
 _global_script_class_icons={
-"GitAPI": "",
 "LavaLayer": "",
 "LiquidLayer": "",
 "OrbitArm": "",
@@ -212,7 +206,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Dukk Three"
+config/name="DukkThree"
 config/icon="res://icon.png"
 
 [editor]
@@ -220,9 +214,9 @@ config/icon="res://icon.png"
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
 
-[editor_plugins]
+[gdnative]
 
-enabled=PoolStringArray( "res://addons/qodot/plugin.cfg" )
+singletons=[  ]
 
 [gui]
 
@@ -230,7 +224,7 @@ common/drop_mouse_on_gui_input_disabled=true
 
 [mono]
 
-project/assembly_name="Dukk Three"
+project/assembly_name="DukkThree"
 
 [physics]
 
